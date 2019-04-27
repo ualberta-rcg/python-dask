@@ -1,5 +1,7 @@
 ## Python Dask course
 
+https://ualberta-rcg.github.io/python-dask/
+
 To install the dependencies, run the following in a Jupyter notebook:
 
 ```
