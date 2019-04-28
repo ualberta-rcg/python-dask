@@ -5,7 +5,7 @@
 To install the dependencies, run the following in a Jupyter notebook:
 
 ```
-!pip install pandas numpy dask
+!pip install pandas numpy dask distributed graphviz bokeh
 ```
 
 To get the notebooks that make up this course, either use git to clone the repository at Github, or run the following in a Jupyter notebook:
