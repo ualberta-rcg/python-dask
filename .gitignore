@@ -102,3 +102,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Dask stuff
+mydask.png
+dask-worker-space
+
+# A couple of symlinks I have to other interesting notebooks ...
+dask-examples
+dask-tutorial
