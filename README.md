@@ -5,7 +5,7 @@
 To install the dependencies, run the following in a Jupyter notebook:
 
 ```
-!pip install pandas numpy dask distributed graphviz bokeh dask_jobqueue
+!pip install pandas numpy dask distributed graphviz bokeh dask_jobqueue mimesis
 
 ```
 
