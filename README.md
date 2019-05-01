@@ -14,3 +14,5 @@ To get the notebooks that make up this course, either use git to clone the repos
 !wget -O python-dask-master.zip https://github.com/ualberta-rcg/python-dask/archive/master.zip
 !unzip python-dask-master.zip
 ```
+
+Or click here to download from your browser: <https://github.com/ualberta-rcg/python-dask/archive/master.zip>
