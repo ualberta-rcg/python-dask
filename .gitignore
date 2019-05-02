@@ -110,3 +110,6 @@ dask-worker-space
 # A couple of symlinks I have to other interesting notebooks ...
 dask-examples
 dask-tutorial
+
+# Data to not accidentally commit
+notebooks/data/2000*.csv
