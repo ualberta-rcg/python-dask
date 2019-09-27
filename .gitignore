@@ -113,3 +113,4 @@ dask-tutorial
 
 # Data to not accidentally commit
 notebooks/data/2000*.csv
+notebooks/data/*.json
