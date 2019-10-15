@@ -2,6 +2,7 @@
 #SBATCH --account=cc-debug
 #SBATCH --time=00:15:00
 #SBATCH --nodes=1
+#SBATCH --ntasks-per-node=8
 #SBATCH --mem-per-cpu=1024M
 
 export NUM_WORKERS=8
