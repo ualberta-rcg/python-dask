@@ -19,7 +19,7 @@ source ~/virtualenv/dask/bin/activate
 dask-scheduler --host 127.0.0.1 \
                --no-dashboard \
                --scheduler-file $SCHEDULER_FILE &
-sleep 30
+sleep 15
 
 # Start a bunch of workers connected to the scheduler and wait
 for worker in `seq $NUM_WORKERS`
@@ -31,7 +31,7 @@ dask-worker --scheduler-file $SCHEDULER_FILE \
             --nthreads $THREADS_PER_WORKER \
             --memory-limit $MEM_PER_WORKER &
 done
-sleep 30
+sleep 15
 
 # Run python script calling featuretools
 time python run-dask.py
