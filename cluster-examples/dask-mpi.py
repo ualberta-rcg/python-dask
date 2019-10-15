@@ -1,3 +1,6 @@
+from dask_mpi import initialize
+initialize()
+
 from dask.distributed import Client
 from dask import delayed
 
@@ -21,7 +24,7 @@ def elapsed(start):
 
 # Connect to the Dask network
 scheduler_file = os.environ['SCHEDULER_FILE']
-client = Client(scheduler_file=scheduler_file)
+client = Client()
 
 # Create the task graph
 # 8 delayed calls to what's my number,
