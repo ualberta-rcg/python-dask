@@ -23,7 +23,6 @@ def elapsed(start):
     return str(time.time() - start) + ' seconds'
 
 # Connect to the Dask network
-scheduler_file = os.environ['SCHEDULER_FILE']
 client = Client()
 
 # Create the task graph
